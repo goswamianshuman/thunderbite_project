@@ -1,0 +1,19 @@
+{
+  "name": "spinwheel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files '*.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^6.2.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  }
+}

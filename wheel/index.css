@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+.app {
+  display: block;
+  background: rgb(165, 132, 218);
+  height: 100vh;
+  width: screen;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.marker {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 180px;
+  z-index: 2;
+}
+
+.wheel {
+  height: 300px;
+  width: 300px;
+}
+
+.button {
+  display: block;
+  height: 40px;
+  width: 110px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.blur {
+  animation: blur 10s;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(1.5px);
+  }
+  60% {
+    filter: blur(0.5px);
+  }
+  80% {
+    filter: blur(0.25px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
